@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Addict Droid</string>
+    <string name="welcome_message">Are you ready, </string>
+    <string name="start_motivation1">Never, ever give up!</string>
+
+    <string name="labelStartScreen">AddictDroid</string>
+    <string name="labelMainScreen">How\'s it going?</string>
+    <string name="labelDailyMotivation">Daily motivation</string>
+    <string name="labelDailyChallenges">Daily challenges</string>
+    <string name="labelRelapse">Relapse</string>
+
+
+    <string name="addiction1">Alcohol</string>
+    <string name="addiction2">Drugs</string>
+    <string name="addiction3">Tobacco</string>
+
+    <string name="money">Money</string>
+
+    <string name="title_activity_daily_challenges">DailyChallenges</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string name="challenge1">Went to a meeting</string>
+    <string name="challenge2">Prayed</string>
+    <string name="challenge3">Hang out with good people</string>
+    <string name="challenge4">Read a book</string>
+    <string name="challenge5">Worked on a step</string>
+    <string name="challenge6">Was of service</string>
+    <string name="challenge7">Learnt something new</string>
+    <string name="challenge8">Exercise/Sport</string>
+    <string name="challenge9">Found a job</string>
+    <string name="challenge10">Met new people</string>
+
+    <string name="relapse1">Reasons why:</string>
+    <string name="relapse2">Why it was not worth it:</string>
+
+    <string name="startScreenSubmit">Start</string>
+    <string name="dialogSubmit">Ready</string>
+
+    <string name="dailyMotivationImGood">I\'m good</string>
+
+    <string name="literature">"EXTRAS"</string>
+    <string name="seeAlso">"See also:"</string>
+
+    <string name="meetings">MEETINGS:\n<a href="http://alcoholics-anonymous.eu/meetings">alcoholics-anonymous.eu/meetings</a></string>
+    <string name="link1">ONLINE MEETINGS: \n<a href="http://alcoholics-anonymous.eu/online-meetings">alcoholics-anonymous.eu/online-meetings</a></string>
+    <string name="link2">AA LITERATURE: \n<a href="http://www.aa.org/pages/en_US/aa-literature">aa.org/pages/en_US/aa-literature</a></string>
+    <string name="link3">SPIRITUAL TIPS: \n<a href="http://www.buddhistrecovery.org">buddhistrecovery.org</a></string>
+    <string name="link4">TREATMENT PAPERS: \n<a href="http://www.williamwhitepapers.com">williamwhitepapers.com</a></string>
+    <string name="link5">TIPS N TRICKS: \n<a href="http://channel.nationalgeographic.com/drugged/articles/tips-and-reminders-for-a-successful-recovery/">channel.nationalgeographic.com/drugged</a></string>
+
+    <string name="contactmail">Contact us: \n<a href="mailto:bkorjenic@gmail.com?Subject=Lost%20Password" target="_top">bkorjenic@gmail.com</a></string>
+
+
+    <string name="tobacco_meetings">MEETINGS:\n<a href="https://nicotine-anonymous.org/find-a-meeting.html">nicotine-anonymous.org/find-a-meeting.html</a></string>
+    <string name="tobacco_link1">PUBLICATIONS: \n<a href="https://nicotine-anonymous.org/publications.html">nicotine-anonymous.org/publications.html</a></string>
+    <string name="tobacco_link2">VOICE OF RECOVERY: \n<a href="http://www.voicesofnicotinerecovery.com/">voicesofnicotinerecovery.com/</a></string>
+    <string name="tobacco_link3">SPIRITUAL TIPS: \n<a href="http://www.buddhistrecovery.org">buddhistrecovery.org</a></string>
+    <string name="tobacco_link4">TREATMENT PAPERS: \n<a href="http://www.williamwhitepapers.com">williamwhitepapers.com</a></string>
+    <string name="tobacco_link5">TIPS N TRICKS: \n<a href="https://smokefree.gov/quitting-smoking/steps-manage-quit-day/">smokefree.gov/quitting-smoking/steps-manage-quit-day"</a></string>
+
+
+    <string name="narco_meetings">MEETINGS:\n<a href="https://www.na.org/meetingsearch/ ">na.org/meetingsearch</a></string>
+    <string name="narco_link1">RECOVERY: \n<a href="http://peele.net/ ">peele.net/ </a></string>
+    <string name="narco_link2">NA LITERATURE: \n<a href="https://www.na.org/?ID=ips-eng-index ">na.org/?ID=ips-eng-index </a></string>
+    <string name="narco_link3">SPIRITUAL TIPS: \n<a href="http://www.buddhistrecovery.org">buddhistrecovery.org</a></string>
+    <string name="narco_link4">OTHER PEOPLE STORIES: \n<a href="http://guineveregetssober.com/">guineveregetssober.com/</a></string>
+    <string name="narco_link5">TIPS N TRICKS: \n<a href="http://channel.nationalgeographic.com/drugged/articles/tips-and-reminders-for-a-successful-recovery/">channel.nationalgeographic.com/drugged</a></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="goal_title_hint">Enter a title for your goal:</string>
+    <string name="goal_title_label">Title</string>
+    <string name="goal_details_label">Start Date</string>
+    <string name="goal_solved_label">Solved</string>
+    <string name="date_picker_title">Date of goal:</string>
+    <string name="new_goal">New Goal</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d goals</string>
+
+
+    <string name="delete_goal">Delete</string>
+    <string name="goal_start_date_text">Date when I set the goal:</string>
+    <string name="goal_deadline_date_text">Deadline date for the goal:</string>
+    <string name="goal_achieved_label">Achieved</string>
+
+</resources>

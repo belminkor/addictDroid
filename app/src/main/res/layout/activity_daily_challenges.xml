@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context=".DailyChallenges">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:gravity="left"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today I:"
+            android:textSize="40dp"
+            android:layout_marginBottom="40dp"/>
+
+        <CheckBox android:id="@+id/checkbox_challenge1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/challenge1"
+            android:onClick="onCheckboxClicked"
+            android:textSize="20dp"/>
+        <CheckBox android:id="@+id/checkbox_challenge2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/challenge2"
+            android:onClick="onCheckboxClicked"
+            android:textSize="20dp"/>
+        <CheckBox android:id="@+id/checkbox_challenge3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/challenge3"
+            android:onClick="onCheckboxClicked"
+            android:textSize="20dp"/>
+        <CheckBox android:id="@+id/checkbox_challenge4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/challenge4"
+            android:onClick="onCheckboxClicked"
+            android:textSize="20dp"/>
+        <CheckBox android:id="@+id/checkbox_challenge5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/challenge5"
+            android:onClick="onCheckboxClicked"
+            android:textSize="20dp"/>
+        <CheckBox android:id="@+id/checkbox_challenge6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/challenge6"
+            android:onClick="onCheckboxClicked"
+            android:textSize="20dp"/>
+        <CheckBox android:id="@+id/checkbox_challenge7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/challenge7"
+            android:onClick="onCheckboxClicked"
+            android:textSize="20dp"/>
+        <CheckBox android:id="@+id/checkbox_challenge8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/challenge8"
+            android:onClick="onCheckboxClicked"
+            android:textSize="20dp"/>
+        <CheckBox android:id="@+id/checkbox_challenge9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/challenge9"
+            android:onClick="onCheckboxClicked"
+            android:textSize="20dp"/>
+        <CheckBox android:id="@+id/checkbox_challenge10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/challenge10"
+            android:onClick="onCheckboxClicked"
+            android:textSize="20dp"/>
+
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            tools:ignore="UselessParent"
+            >
+
+
+            <Button
+                android:id="@+id/dummy_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:onClick="onClickSave"
+                android:background="#4b24a5"
+                android:textColor="#fff"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

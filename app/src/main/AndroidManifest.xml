@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bela.addictdroid">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/droid"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/droid"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".GoalListActivity"
+            android:label="My Goals:"></activity>
+        <activity android:name=".GoalPagerActivity"
+            android:label=""
+            android:parentActivityName=".GoalListActivity">
+        </activity>
+        <activity
+            android:name=".MainScreen"
+            android:label="@string/labelMainScreen" />
+        <activity
+            android:name=".DailyChallenges"
+            android:label="@string/labelDailyChallenges" />
+        <activity
+            android:name=".Relapse"
+            android:label="@string/labelRelapse" />
+        <activity
+            android:name=".DailyMotivation"
+            android:label="@string/labelDailyMotivation" />
+        <activity android:name=".Extras" />
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true" />
+
+        <activity android:name=".EmergencyCalls"
+            android:label="Emergency call" />
+
+    </application>
+
+</manifest>

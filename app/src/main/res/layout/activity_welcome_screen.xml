@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".WelcomeScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your name:"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/userName"
+        android:background="@drawable/edit_text"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Addiction:"
+        android:textSize="30dp"
+        android:paddingTop="30dp"
+        />
+
+    <Spinner
+        android:id="@+id/addictionSelect"
+        android:layout_height="wrap_content"
+        android:prompt="@string/addiction1"
+        android:layout_width="wrap_content"
+        android:entries="@array/addictionsList"
+
+        >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/current_date"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/startScreenSubmit"
+        android:textColor="#fff"
+        android:background="#4b24a5"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background3">
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/goal_title_label"/>
+
+    <EditText
+        android:id="@+id/goal_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/goal_title_hint"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text"
+        android:padding="10dp"
+        />
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/goal_details_label"/>
+    <TextView
+        android:id="@+id/goal_text_start_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/goal_start_date_text"/>
+
+    <TextView
+        android:id="@+id/goal_start_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/goal_text_deadline_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/goal_deadline_date_text"/>
+
+    <Button
+        android:id="@+id/goal_deadline_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4b24a5"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"/>
+
+    <CheckBox
+        android:id="@+id/goal_solved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/goal_achieved_label"/>
+
+</LinearLayout>

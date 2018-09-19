@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    >
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seeAlso"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/link0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:padding="10dp"
+        android:text="@string/tobacco_meetings"
+        />
+
+    <TextView
+        android:id="@+id/link1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:padding="10dp"
+        android:text="@string/tobacco_link1"
+        />
+
+
+    <TextView
+        android:id="@+id/link2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:padding="10dp"
+        android:text="@string/tobacco_link2"/>
+    <TextView
+        android:id="@+id/link3"
+        android:autoLink="web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:text="@string/tobacco_link3"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/link4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:autoLink="web"
+        android:padding="10dp"
+        android:text="@string/tobacco_link4"/>
+    <TextView
+        android:id="@+id/link5"
+        android:autoLink="web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:padding="10dp"
+        android:text="@string/tobacco_link5"/>
+
+    <TextView
+        android:id="@+id/link6"
+        android:autoLink="email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:padding="10dp"
+        android:text="@string/contactmail"/>
+</LinearLayout>
